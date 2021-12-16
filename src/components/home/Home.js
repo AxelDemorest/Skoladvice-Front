@@ -5,7 +5,7 @@ export class Home extends Component {
 
   render() {
     return(
-        <div class="category">
+        <div class="home">
           <h1>Découvre les meilleures écoles françaises</h1>
           <span class=""></span>
         </div>
