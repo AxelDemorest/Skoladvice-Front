@@ -4,9 +4,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { Header } from './components/home/Header.js'
+import { Header } from './components/header/Header.js'
 import { Admin } from './components/dashboard/Admin.js'
-import { Category } from './components/home/Category'
+import { Home } from './components/home/Home'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
       </BrowserRouter>

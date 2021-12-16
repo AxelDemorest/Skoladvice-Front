@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import './Header.style.css';
 
 export class Header extends Component {
 
@@ -15,7 +14,6 @@ export class Header extends Component {
               Home
               </Link>
             </li>
-
 
             <li>
               <i class="fa fa-circle fa-2x"></i>
